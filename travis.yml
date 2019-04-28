@@ -1,0 +1,7 @@
+language: node_js
+jobs:
+  include:
+    - stage: Build
+      script: exit 0
+notifications:
+  webhooks: $WEBHOOK_URL
