@@ -1,0 +1,19 @@
+{
+  "name": "test-build-webhook",
+  "version": "1.0.0",
+  "description": "Using this to test build notifications through webhooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astone123/test-build-webhook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/astone123/test-build-webhook/issues"
+  },
+  "homepage": "https://github.com/astone123/test-build-webhook#readme"
+}
