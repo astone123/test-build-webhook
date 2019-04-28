@@ -2,10 +2,8 @@ language: node_js
 jobs:
   include:
     - stage: Build
-      script:
-        - echo $WEBHOOK_URL
-        - exit 0
+      script: exit 0
 notifications:
-  webhooks: $WEBHOOK_URL
+  webhooks: https://3a49214f.ngrok.io/api/v1/organizations/1/webhook
   on_success: always
   on_failure: always
