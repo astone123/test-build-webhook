@@ -5,5 +5,5 @@ jobs:
       script: exit 0
 notifications:
   webhooks: $WEBHOOK_URL
-  on_success: always
-  on_failure: always
+    on_success: always
+    on_failure: always
